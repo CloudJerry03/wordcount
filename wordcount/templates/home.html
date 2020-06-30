@@ -1,0 +1,11 @@
+<div align='center'>
+    <h1 style='color: #74b456'>WORD COUNT</h1>
+    
+    <a href="{% url 'about' %}">ABOUT</a>
+
+    <form action="{% url 'count' %}">
+        <textarea cols="40" rows="10" name="fulltext"></textarea>
+        <br>
+        <input type="submit" value="Count!">
+    </form>
+</div>
